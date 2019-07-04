@@ -9,8 +9,13 @@
 
 .Projectbtn{
 /*  margin-right: 40px;*/
-
 }
+
+.view{
+  width: 100%;
+}
+
+
 .fa-code{color: #e54d26}
 .fa-bold{color: #563d7c}
 .fa-css3{color: #2163af}
@@ -79,8 +84,8 @@
 
 .skills li{
   margin: 20px 0;
-
 }
+
 .bar{
   background: #353b48;
   display: block;
