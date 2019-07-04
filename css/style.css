@@ -10,15 +10,16 @@
 .Projectbtn{
 /*  margin-right: 40px;*/
 }
-
+/*
 .view{
   width: 100%;
-}
+}*/
 
 .mainimg{
-  display: block;
+  /*display: block;
   max-width: 100%;
-  height: auto;
+  height: auto;*/
+  margin: 0 auto;
 }
 
 
