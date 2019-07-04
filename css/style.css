@@ -56,6 +56,10 @@
   margin-left: 40px;
 }
 
+.paddingtop{
+  padding-top: 40px;
+}
+
 @media only screen and (max-width: 762px) {
   .paddingleft{
     margin-left: 0px;
@@ -93,7 +97,7 @@
 
 .html{
   width: 90%;
-  animation: html 3s;
+  animation: html 2s;
 }
 .css{
   width: 65%;
@@ -101,11 +105,21 @@
 }
 .js{
   width: 50%;
-  animation: js 2s;
+  animation: js 3s;
 }
 .c{
   width: 70%;
-  animation: c 2s;
+  animation: c 3s;
+}
+
+.unity{
+  width: 45%;
+  animation: unity 4s;
+}
+
+.python{
+  width: 85%;
+  animation: python 4s;
 }
 
 @keyframes html {
@@ -141,6 +155,24 @@
   }
   100%{
     width: 70%;
+  }
+}
+
+@keyframes unity {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 45%;
+  }
+}
+
+@keyframes python {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 85%;
   }
 }
 *{
