@@ -1,53 +1,150 @@
-.view {
-/*    background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center;*/
-    background: url("2.jpg")no-repeat center center;
-    background-size: cover;
+.logoseagull{
+
+  font-weight: bold;
+}
+.logoseagull2{
+  font-weight: 400;
+  font-size: 40px
 }
 
-.Textmy{
-   text-shadow: 2px 2px 20px #000;
+.Projectbtn{
+/*  margin-right: 40px;*/
+
+}
+.fa-code{color: #e54d26}
+.fa-bold{color: #563d7c}
+.fa-css3{color: #2163af}
+.fa-code, .fa-bold, .fa-css3{
+  font-size: 4em;
+  margin-bottom: 0.5em;*/
 }
 
-.mytext{
+.typingeff{
+  color: black;
 
-  padding-top: 30%;
 }
 
-.navbar {
-    background-color: transparent;
+.coding{
+    text-align: left;
 }
 
-.top-nav-collapse {
-    background-color: #4285F4;
+.padding{
+  padding-bottom: 2em;
 }
 
-@media only screen and (max-width: 768px) {
-    .navbar {
-        background-color: #4285F4;
-    }
-    .mytext{
-      margin-top: 70%;
-    }
+.padding2{
+  padding-bottom: 4em;
 }
 
-html,
-body,
-header,
-.view {
+.textondark{
+  color: white;
+}
+
+.darksector{
   height: 100%;
+  background: #212121;
 }
 
 
-.map-container{
-overflow:hidden;
-padding-bottom:56.25%;
-position:relative;
-height:0;
+.skills{
+  height: 100%;
+  width: 100%;
+  background: #212121;
 }
-.map-container iframe{
-left:0;
-top:0;
-height:100%;
-width:100%;
-position:absolute;
+
+.paddingleft{
+  margin-left: 40px;
+}
+
+@media only screen and (max-width: 762px) {
+  .paddingleft{
+    margin-left: 0px;
+  }
+}
+
+.skills2{
+  color: white;
+}
+
+.skills{
+/*  width: 500px;*/
+  margin: 60px auto;
+  color: white;
+}
+
+.skills li{
+  margin: 20px 0;
+
+}
+.bar{
+  background: #353b48;
+  display: block;
+  height: 2px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span{
+  height: 2px;
+  float: left;
+  background: #2187e7;
+}
+
+.html{
+  width: 90%;
+  animation: html 3s;
+}
+.css{
+  width: 65%;
+  animation: css 2s;
+}
+.js{
+  width: 50%;
+  animation: js 2s;
+}
+.c{
+  width: 70%;
+  animation: c 2s;
+}
+
+@keyframes html {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 65%;
+  }
+}
+
+@keyframes js {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 50%;
+  }
+}
+
+@keyframes c {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 70%;
+  }
+}
+*{
+  font-family: sans-serif;
+  list-style: none;
+  padding: 0;
 }
