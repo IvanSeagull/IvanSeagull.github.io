@@ -1,16 +1,47 @@
 .contacts{
-  height: 200px;
+  height: 100%;
   background-color: #212121;
 }
 
 .fa-phone{
   color: white;
-  font-size: 4em;
+  font-size: 0.8em;
 
 }
 .paddingleft{
-  margin-left: 40px;
+
 }
-.padding{
+.paddingbottom{
   padding-bottom: 2em;
+}
+
+.padding{
+  padding-top: 70px;
+}
+
+.contactstext{
+  color: white;
+}
+
+@media only screen and (max-width: 590px) {
+  .contactstext{
+    font-size: 32px;
+  }
+
+}
+
+@media only screen and (max-width: 735px) {
+
+  .mail{
+    font-size: 27px;
+  }
+}
+
+@media only screen and (max-width: 496px) {
+  .contactstext{
+    font-size: 20px;
+  }
+  .mail{
+    font-size: 17px;
+  }
 }
