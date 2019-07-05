@@ -1,3 +1,16 @@
-body{
+.contacts{
+  height: 200px;
   background-color: #212121;
+}
+
+.fa-phone{
+  color: white;
+  font-size: 4em;
+
+}
+.paddingleft{
+  margin-left: 40px;
+}
+.padding{
+  padding-bottom: 2em;
 }
