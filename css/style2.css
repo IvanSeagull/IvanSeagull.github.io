@@ -6,7 +6,20 @@
 .fa-phone{
   color: white;
   font-size: 0.8em;
+}
+.fa-vk{
+  color: white;
+}
+.fa-instagram{
+  color: white;
+}
 
+.fa-vk:hover{
+  color: #455a64;
+}
+
+.fa-instagram:hover{
+  color: #455a64;
 }
 .paddingleft{
 
@@ -23,6 +36,10 @@
   color: white;
 }
 
+.white{
+  color:white;
+}
+
 @media only screen and (max-width: 590px) {
   .contactstext{
     font-size: 32px;
@@ -31,6 +48,9 @@
 }
 
 @media only screen and (max-width: 735px) {
+  .contactstext{
+    font-size: 27px;
+  }
 
   .mail{
     font-size: 27px;
@@ -39,7 +59,7 @@
 
 @media only screen and (max-width: 496px) {
   .contactstext{
-    font-size: 20px;
+    font-size: 17px;
   }
   .mail{
     font-size: 17px;
