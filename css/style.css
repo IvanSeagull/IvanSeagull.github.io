@@ -199,3 +199,13 @@
   list-style: none;
   padding: 0;
 }
+
+.urcard{
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+}
+
+.caard:hover{
+  background-image: url("card.jpg");
+}
