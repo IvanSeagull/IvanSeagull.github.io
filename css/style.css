@@ -79,6 +79,12 @@
   }
 }
 
+@media only screen and (max-width: 662px) {
+  .typingeff{
+    font-size: 40px;
+  }
+}
+
 .skills2{
   color: white;
 }
