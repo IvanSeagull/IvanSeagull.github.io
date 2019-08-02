@@ -3,6 +3,48 @@
   background-color: #212121;
 }
 
+.mymail{
+  width: 1.1em;
+  filter: invert(1);
+  padding-bottom: 5px;
+}
+
+.myphone{
+  width: 0.9em;
+  filter: invert(1);
+}
+
+.myvk{
+  width: 1.4em;
+  filter: invert(1);
+}
+
+.myvk:hover{
+  filter: invert(0.5);
+}
+
+
+.myinsta{
+  width: 1.1em;
+  filter: invert(1);
+}
+
+.myinsta:hover{
+  filter: invert(0.5);
+}
+
+.mypatreon{
+  width: 1.1em;
+  filter: invert(1);
+}
+
+.mypatreon:hover{
+  filter: invert(0.5);
+}
+
+
+
+
 .fa-phone{
   color: white;
   font-size: 0.8em;
