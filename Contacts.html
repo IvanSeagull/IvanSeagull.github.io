@@ -98,7 +98,38 @@
 </div>
   <div class="col-4">
 
-  <!-- Default form contact -->
+    <form class="text-center border border-light p-5" action="https://formspree.io/ivan.seagull.k@gmail.com" method="POST">
+
+          <p class="h4 mb-4">Contact me</p>
+
+          <!-- Name -->
+          <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name" name="name">
+
+          <!-- Email -->
+          <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail" name="email">
+
+          <!-- Subject -->
+          <label>Subject</label>
+          <select class="browser-default custom-select mb-4">
+              <option value="" disabled>Choose option</option>
+              <option value="1" selected>Feedback</option>
+              <option value="2">Report a bug</option>
+              <option value="3">Feature request</option>
+              <option value="4">Feature request</option>
+          </select>
+
+          <!-- Message -->
+          <div class="form-group">
+              <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+          </div>
+
+          <input type="hidden" name="_next" value="ivanseagull.github.io/contacts.html">
+
+          <!-- Send button -->
+          <button class="btn btn-info btn-block" type="submit">Send</button>
+
+      </form>-->
+
 
   <!-- Default form contact -->
 
@@ -111,6 +142,8 @@
     <label for="message">Message</label>
     <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+    <input type="hidden" name="_next" value="ivanseagull.github.io/contacts.html">
+    <input type="text" name="_gotcha" style="display:none">
   </fieldset>
   <input type="submit" value="Submit">
 </form>
