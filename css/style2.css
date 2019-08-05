@@ -43,6 +43,15 @@
 }
 
 
+.mygithub{
+  width: 1.4em;
+  filter: invert(1);
+}
+
+.mygithub:hover{
+  filter: invert(0.5);
+}
+
 
 
 .fa-phone{
