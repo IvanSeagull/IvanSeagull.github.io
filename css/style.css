@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:500&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500&display=swap&subset=cyrillic');
 
 a{
 font-family: 'Ubuntu', sans-serif !important; */
@@ -12,6 +13,13 @@ font-family: 'Ubuntu', sans-serif !important; */
   font-weight: 400px;
   font-size: 40px;
   font-family: 'Ubuntu', sans-serif !important; */
+}
+.maintext{
+  font-family: 'Roboto Mono', monospace;
+  /*font-size: 17px;*/
+
+
+
 }
 
 .Projectbtn{
