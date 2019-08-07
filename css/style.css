@@ -49,7 +49,10 @@ font-family: 'Ubuntu', sans-serif !important; */
 .typingeff{
   color: black;
   font-family: 'Ubuntu', sans-serif !important; */
-
+}
+.hello{
+  padding-left: 13px;
+  font-family: 'Roboto Mono', monospace;
 }
 
 
