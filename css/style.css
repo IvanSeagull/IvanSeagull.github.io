@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:500&display=swap&subset=cyrillic');
+
+a{
+font-family: 'Ubuntu', sans-serif !important; */
+}
+
 .logoseagull{
 
   font-weight: bold;
 }
 .logoseagull2{
-  font-weight: 400;
-  font-size: 40px
+  font-weight: 400px;
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif !important; */
 }
 
 .Projectbtn{
@@ -33,6 +40,7 @@
 
 .typingeff{
   color: black;
+  font-family: 'Ubuntu', sans-serif !important; */
 
 }
 

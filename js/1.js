@@ -51,6 +51,6 @@ var TxtType = function(el, toRotate, period) {
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
-        css.innerHTML = ".typingeff > .wrap { border-right: 0.08em solid #000}";
+        css.innerHTML = ".typingeff > .wrap { border-right: 0.08em solid #000;   font-family: 'Ubuntu', sans-serif !important;}";
         document.body.appendChild(css);
     };
