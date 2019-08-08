@@ -19,6 +19,11 @@ font-family: 'Ubuntu', sans-serif !important; */
   font-size: 17px;
   font-weight: 550;
 }
+
+.newfont{
+  font-family: 'Roboto Mono', monospace;
+
+}
 .lol{
   height: 100px;
 }
@@ -79,6 +84,9 @@ font-family: 'Ubuntu', sans-serif !important; */
   width: 100%;
 }
 
+.finaltext{
+  font-size: 25px;
+}
 
 .skills{
   height: 100%;
