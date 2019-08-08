@@ -83,7 +83,7 @@ font-family: 'Ubuntu', sans-serif !important; */
 .skills{
   height: 100%;
   width: 100%;
-  background: #212121; /* 2E2E2E */
+  background: #212121;
 }
 
 .paddingleft{
@@ -123,12 +123,6 @@ font-family: 'Ubuntu', sans-serif !important; */
 .skills li{
   margin: 20px 0;
 }
-
-.myplans {
-/*letter-spacing: 20px;*/
-  font-size: 25px
-}
-
 
 .bar{
   background: #353b48;
