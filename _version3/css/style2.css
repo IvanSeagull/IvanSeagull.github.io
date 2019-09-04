@@ -1,0 +1,118 @@
+.contacts{
+  height: 100%;
+  background-color: #212121;
+}
+
+.mymail{
+  width: 1.1em;
+  filter: invert(1);
+  padding-bottom: 5px;
+}
+
+.myphone{
+  width: 0.9em;
+  filter: invert(1);
+}
+
+.myvk{
+  width: 1.4em;
+  filter: invert(1);
+}
+
+.myvk:hover{
+  filter: invert(0.5);
+}
+
+
+.myinsta{
+  width: 1.1em;
+  filter: invert(1);
+}
+
+.myinsta:hover{
+  filter: invert(0.5);
+}
+
+.mypatreon{
+  width: 1.1em;
+  filter: invert(1);
+}
+
+.mypatreon:hover{
+  filter: invert(0.5);
+}
+
+
+.mygithub{
+  width: 1.4em;
+  filter: invert(1);
+}
+
+.mygithub:hover{
+  filter: invert(0.5);
+}
+
+
+
+.fa-phone{
+  color: white;
+  font-size: 0.8em;
+}
+.fa-vk{
+  color: white;
+}
+.fa-instagram{
+  color: white;
+}
+
+.fa-vk:hover{
+  color: #455a64;
+}
+
+.fa-instagram:hover{
+  color: #455a64;
+}
+.paddingleft{
+
+}
+.paddingbottom{
+  padding-bottom: 2em;
+}
+
+.padding{
+  padding-top: 70px;
+}
+
+.contactstext{
+  color: white;
+}
+
+.white{
+  color:white;
+}
+
+@media only screen and (max-width: 590px) {
+  .contactstext{
+    font-size: 32px;
+  }
+
+}
+
+@media only screen and (max-width: 735px) {
+  .contactstext{
+    font-size: 27px;
+  }
+
+  .mail{
+    font-size: 27px;
+  }
+}
+
+@media only screen and (max-width: 496px) {
+  .contactstext{
+    font-size: 17px;
+  }
+  .mail{
+    font-size: 17px;
+  }
+}
