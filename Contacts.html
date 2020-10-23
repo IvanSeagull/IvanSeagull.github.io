@@ -14,233 +14,183 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="css/style2.css" rel="stylesheet">
-    <link rel="shortcut icon" href="me4.png" type="image/png">
-
+  <link rel="shortcut icon" href="me4.png" type="image/png">
   <script src="https://kit.fontawesome.com/56d2160809.js"></script>
 </head>
 
 <body>
-
-  <!-- Start your project here-->
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark info-color elegant-color-dark sticky-top">
       <a class="navbar-brand logoseagull" href="#">Ivan Seagull</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link waves-effect waves-light" href="https://ivanseagull.github.io/">Home </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle waves-effect waves-light Projectbtn" id="navbarDropdownMenuLink"   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+            <div class="dropdown-menu dropdown-info" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item waves-effect waves-light" href="projects.websites">Websites</a>
+              <a class="dropdown-item waves-effect waves-light" href="projects.python">Python</a>
+              <a class="dropdown-item waves-effect waves-light" href="projects.games">Games</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline">
           <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                 <a class="nav-link waves-effect waves-light" href="https://ivanseagull.github.io/">Home </a>
-              </li>
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle waves-effect waves-light Projectbtn" id="navbarDropdownMenuLink"   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
-                  <div class="dropdown-menu dropdown-info" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item waves-effect waves-light" href="projects.websites">Websites</a>
-                      <a class="dropdown-item waves-effect waves-light" href="projects.python">Python</a>
-                      <a class="dropdown-item waves-effect waves-light" href="projects.games">Games</a>
-                  </div>
-              </li>
-
-
+            <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" href="">Contacts <span class="sr-only">(current)</span></a>
+            </li>
           </ul>
-          <form class="form-inline">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link waves-effect waves-light" href="">Contacts <span class="sr-only">(current)</span></a>
-                </li>
-            </ul>
-
-          </form>
+        </form>
       </div>
   </nav>
 
-  <div class="contacts">
 
+  <!-- <i class="fas fa-phone"></i> -->
+
+  <div class="contacts">
     <div class="container-fluid paddingbottom darksector ">
       <h1 class="text-center contactstext padding  ">My Contacts</h1>
       <div class="row paddingbottom padding">
-
         <div class="col-12  paddingleft ">
-          <h1 class=" text-center contactstext paddingtop"> My Phone
-
-
-        <!--    <i class="fas fa-phone"></i> -->
-        <img src="svg/phone.svg" alt="" class="myphone"> &nbsp : &nbsp +7&nbsp916&nbsp***&nbsp **&nbsp ** </h1>
-<br>
-          <h1 class=" text-center contactstext paddingtop mail "> My Mail  <img src="svg/envelope.svg" alt="" class="mymail">   &nbsp : &nbsp ivan.seagull.k@gmail.com </h1>
-<br>
-          <h1 class=" text-center contactstext paddingtop  "> My VK   <a class="" href="https://vk.com/ivan.seagull"> &nbsp &nbsp  <img src="svg/vk.svg" alt="" class="myvk">  </a></h1>
-<br>
-          <h1 class=" text-center contactstext paddingtop  "> My Instagram   <a class="" href="https://www.instagram.com/ivan.seagull/?hl=ru"> &nbsp &nbsp <img src="svg/instagram.svg" alt="" class="myinsta">  </a></h1>
-<br>
-            <h1 class=" text-center contactstext paddingtop  "> My Patreon   <a class="" href="https://www.patreon.com/ivanseagull"> &nbsp &nbsp <img src="svg/patreon.svg" alt="" class="mypatreon">  </a></h1>
-<br>
-            <h1 class=" text-center contactstext paddingtop  "> My GitHub   <a class="" href="https://ivanseagull.github.io/"> &nbsp &nbsp <img src="svg/github.svg" alt="" class="mygithub">  </a></h1>
-
-        </div>
-        <div class="col-1"></div>
-
-
-
-        <div class="col-xs-12 col-sm-6 col-md-5">
-          <div class="skills">
-
-
-          </div>
-              </div>
-      </div>
-
-    </div>
-
-  </div>
-
-  <div class="col-12 row">
-
-  <div class="col-4">
-</div>
-  <div class="col-4">
-
-    <form class="text-center border border-light p-5" action="https://formspree.io/ivan.seagull.k@gmail.com" method="POST">
-
-          <p class="h4 mb-4">Contact me</p>
-
-          <!-- Name -->
-          <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name" name="name">
+          <!-- Phone -->
+          <!-- <h1 class=" text-center contactstext paddingtop"> My Phone
+            <img src="svg/phone.svg" alt="" class="myphone"> &nbsp : &nbsp +7&nbsp916&nbsp***&nbsp **&nbsp ** 
+          </h1> 
+          <br> -->
 
           <!-- Email -->
-          <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail" name="email">
+          <h1 class=" text-center contactstext paddingtop mail "> My Mail  
+            <img src="svg/envelope.svg" alt="" class="mymail">   &nbsp : &nbsp ivan.seagull.replies@gmail.com 
+          </h1>
+          <br>
 
-          <!-- Subject -->
-          <label>Subject</label>
-          <select class="browser-default custom-select mb-4">
-              <option value="" disabled>Choose option</option>
-              <option value="1" selected>Feedback</option>
-              <option value="2">Report a bug</option>
-              <option value="3">Feature request</option>
-              <option value="4">Feature request</option>
-          </select>
+          <!-- VK -->
+          <!-- <h1 class=" text-center contactstext paddingtop  "> My VK   
+            <a class="" href="https://vk.com/ivan.seagull"> &nbsp &nbsp  
+              <img src="svg/vk.svg" alt="" class="myvk">  
+            </a>
+          </h1>
+          <br> -->
 
-          <!-- Message -->
-          <div class="form-group">
-              <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
-          </div>
+          <!-- Instagram -->
+          <h1 class=" text-center contactstext paddingtop  "> My Instagram   
+            <a class="" href="https://www.instagram.com/developed.by.seagull"> &nbsp &nbsp 
+              <img src="svg/instagram.svg" alt="" class="myinsta">  
+            </a>
+          </h1>
+          <br>
 
-          <input type="hidden" name="_next" value="ivanseagull.github.io/contacts.html">
+          <!-- Patreon -->
+          <h1 class=" text-center contactstext paddingtop  "> My Patreon   
+            <a class="" href="https://www.patreon.com/ivanseagull"> &nbsp &nbsp 
+              <img src="svg/patreon.svg" alt="" class="mypatreon">  
+            </a>
+          </h1>
+          <br>
 
-          <!-- Send button -->
-          <button class="btn btn-info btn-block" type="submit">Send</button>
-
-      </form>-->
-
-
-  <!-- Default form contact -->
-
-  <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/ivan.seagull.k@gmail.com" method="POST">
-  <fieldset id="fs-frm-inputs">
-    <label for="full-name">Fullss Name</label>
-    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-    <label for="email-address">Email Address</label>
-    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-    <label for="message">Message</label>
-    <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
-    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"/>
-    <input type="hidden" name="_next" value="ivanseagull.github.io/contacts.html"/>
-    <input type="text" name="_gotcha" style="display:none"/>
-  </fieldset>
-  <input type="submit" value="Submit">
-</form>
-</div>
-<div class="col-4">
-</div>
-</div>
-
-
-<!--
-
-
-
-<form action="send.php" method="post" name="form1" enctype="multipart/form-data">
-   <div class="form-group">
-       <label for="txtFormName">Введите ваше имя и организацию</label>
-       <input name="txtFormName" type="text" class="form-control" required placeholder="Иван Приарит" title='Иван Приарит'> </div>
-   <div class="form-group">
-       <label for="txtDescription">Введите Ваш номер телефона</label>
-       <input name="txtDescription" id="txtDescription" class="form-control" placeholder="098111222" required pattern="^\d{10}$" title="0933888111" /> </div>
-   <div class="form-group">
-       <label for="txtFormEmail">Введите ваш e-mail</label>
-       <input name="txtFormEmail" type="email" class="form-control" title="primer@gmail.com" placeholder="primer@gmail.com" required> </div>
-   <label for="fileAttach">Прикрепите файл с макетом</label>
-   <input name="fileAttach" type="file" required>
-   <br>
-   <br>
-   <input type="submit" name="Submit" value="ОТПРАВИТЬ МАКЕТ" class="btn btn-danger btn-block">
-</form>
--->
-
-
-
-
-
-
-<footer class="page-footer font-small elegant-color darken-3"> <!--unique-color-dark-->
-
-  <!-- Footer Elements -->
-  <div class="container">
-
-    <!-- Grid row-->
-    <div class="row">
-
-      <!-- Grid column -->
-      <div class="col-md-12 py-5">
-
-        <div class="mb-5 flex-center">
-
-          <!-- Facebook -->
-          <a class="fb-ic" href="https://github.com/IvanSeagull" >
-            <i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!-- Twitter -->
-          <a class="tw-ic" href="https://vk.com/ivan.seagull">
-            <i class="fab fa-vk fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!-- Google +-->
-          <a class="gplus-ic" href="">
-            <i class="fas fa-envelope fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!--Linkedin -->
-          <a class="li-ic" href="https://www.patreon.com/ivanseagull">
-            <i class="fab fa-patreon fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!--Instagram-->
-          <a class="ins-ic" href="https://www.instagram.com/ivan.seagull/?hl=ru">
-            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-
-          <a class="ins-ic" href="https://www.instagram.com/ivan.seagull/?hl=ru">
-            <i class="fab fa-discord fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-
-
+          <!-- Github -->
+          <h1 class=" text-center contactstext paddingtop  "> My GitHub   
+            <a class="" href="https://ivanseagull.github.io/"> &nbsp &nbsp 
+              <img src="svg/github.svg" alt="" class="mygithub">  
+            </a>
+          </h1>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-xs-12 col-sm-6 col-md-5">
+          <div class="skills"></div>
         </div>
       </div>
-      <!-- Grid column -->
-
     </div>
-    <!-- Grid row-->
-
   </div>
-  <!-- Footer Elements -->
 
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2019 Copyright:
-    <a href="https://ivanseagull.github.io/"> IvanSeagull.github.io</a>
+
+  <!-- TODO -->
+  <!-- <div class="col-12 row">
+    <div class="col-4"></div>
+    <div class="col-4">
+      <form class="text-center border border-light p-5" action="https://formspree.io/ivan.seagull.k@gmail.com" method="POST">
+            <p class="h4 mb-4">Contact me</p>
+            <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name" name="name">
+            <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail" name="email">
+            <label>Subject</label>
+            <select class="browser-default custom-select mb-4">
+                <option value="" disabled>Choose option</option>
+                <option value="1" selected>Feedback</option>
+                <option value="2">Report a bug</option>
+                <option value="3">Feature request</option>
+                <option value="4">Feature request</option>
+            </select>
+            <div class="form-group">
+                <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+            </div>
+            <input type="hidden" name="_next" value="ivanseagull.github.io/contacts.html">
+            <button class="btn btn-info btn-block" type="submit">Send</button>
+      </form>
+
+      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/ivan.seagull.k@gmail.com" method="POST">
+      <fieldset id="fs-frm-inputs">
+        <label for="full-name">Fullss Name</label>
+        <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+        <label for="email-address">Email Address</label>
+        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+        <label for="message">Message</label>
+        <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"/>
+        <input type="hidden" name="_next" value="ivanseagull.github.io/contacts.html"/>
+        <input type="text" name="_gotcha" style="display:none"/>
+      </fieldset>
+      <input type="submit" value="Submit">
+      </form>
+    </div>
+    <div class="col-4"></div>
+  </div> -->
+
+
+
+  <!-- Temporary dessicion -->
+  <div style="height: 100vh;">
+    <h2 style="font-size: 40px; text-align: center; padding-top: 45vh;">I`m working on it</h2>
   </div>
-  <!-- Copyright -->
 
-</footer>
-<!-- Footer -->
 
+
+  <!-- footer -->
+  <footer class="page-footer font-small elegant-color darken-3"> <!--unique-color-dark-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 py-5">
+          <div class="mb-5 flex-center">
+            <a class="fb-ic" href="https://github.com/IvanSeagull" >
+              <i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a class="tw-ic" href="https://vk.com/ivan.seagull">
+              <i class="fab fa-vk fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a class="gplus-ic" href="">
+              <i class="fas fa-envelope fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a class="li-ic" href="https://www.patreon.com/ivanseagull">
+              <i class="fab fa-patreon fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a class="ins-ic" href="https://www.instagram.com/ivan.seagull/?hl=ru">
+              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a class="ins-ic" href="https://www.instagram.com/ivan.seagull/?hl=ru">
+              <i class="fab fa-discord fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://ivanseagull.github.io/"> IvanSeagull.github.io</a>
+    </div>
+  </footer>
 
   <!-- SCRIPTS -->
   <!-- JQuery -->
