@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 70vw;
+  height: 90vh;
+  margin: auto;
+  background-color: grey;
+}
+
+.inner {
+  text-align: center;
+  margin-top: 70px;
+  padding-top: 50px;
+  font-size: 40px;
+}
+
+.main p {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.second {
+  font-size: 80px !important;
+  margin-top: 80px !important;
+}
+.main p:last-of-type {
+  font-size: 40px;
+  margin-top: 90px !important;
+}
