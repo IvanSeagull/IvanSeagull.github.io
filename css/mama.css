@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Dela Gothic One', cursive;
+}
+
+body {
+  /* width: 100vw; */
+  height: 100vh;
+  padding-top: 30px;
+}
+
+.wrapper {
+  width: 50%;
+  background-color: rgb(224, 224, 224);
+  height: 80vh;
+  margin: 0 auto;
+  padding: 50px;
+}
+.wrapper h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 34px;
+  margin-bottom: 40px;
+}
+
+.wrapper p:first-of-type {
+  margin: 60px 0;
+}
+.wrapper .l {
+  text-align: center;
+}
